@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thermometer</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <div
+      class="container bg-[#5B867F] w-screen h-screen flex items-center justify-center"
+    >
+      <div class="flex bg-white rounded-md p-7">
+        <div class="input-container">
+          <label for="cel" class="label">celsius</label>
+          <input type="text" id="cel" class="input"/>
+        </div>
+        <div class="input-container">
+          <label for="far" class="label">Fahrenheit</label>
+          <input type="text" id="far" class="input"/>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
 </html>

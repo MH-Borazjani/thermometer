@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .input-container{
+        @apply flex flex-col m-3 items-center
+    }
+    .input{
+        @apply border-2 focus:outline-zinc-700 border-[#CFCFCF] w-32 h-12 rounded-md p-1 
+    }
+    .label{
+        @apply font-mono font-bold
+    }
+}
