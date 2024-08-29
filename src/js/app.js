@@ -8,4 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
       fahrenheit.value = (celsius.value * 9) / 5 + 32;
     }
   });
+  fahrenheit.addEventListener("input",()=>{
+    if (fahrenheit.value==="") {
+        celsius.value=""
+    } else {
+        celsius.value= (fahrenheit.value-32)*5/9
+    }
+  })
 });
